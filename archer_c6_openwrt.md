@@ -16,8 +16,10 @@ TFTP_ADDRESS=":69"
 TFTP_OPTIONS="--secure --create"
 ```
 
-Set local ip to 192.168.0.66. Restart Archer C6, press reset and wps button.
-
 sudo systemctl restart tftpd-hpa
 
 sudo systemctl status tftpd-hpa
+
+Set local ip to 192.168.0.66. Restart Archer C6, press reset and wps button for 10 sec.
+
+Wait...
